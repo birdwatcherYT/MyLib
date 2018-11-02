@@ -19,7 +19,7 @@ AR       = ar
 ARFLAGS  = rus
 
 CXX      = g++
-CXXFLAGS = -g -MMD -MP -Wall -Wextra -Winit-self -Wno-unused-parameter 
+CXXFLAGS = -g -MMD -MP -Wall -Wextra -Winit-self -Wno-unused-parameter -O3
 
 RM       = rm -f
 LDFLAGS  =
